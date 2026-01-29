@@ -18,3 +18,5 @@ class Libro:
 
 libro1 = Libro("Harry potter 1",1000)
 print(libro1.calcular_iva(1000))
+
+print(Libro.calcular_iva(10000))
